@@ -51,7 +51,7 @@
 						}, 250);
 
 					}).triggerHandler('resize.flexbox-fix');
-
+					
 				})();
 
 		// Object fit workaround.
@@ -128,7 +128,7 @@
 			.scrollex({
 				top:		'30vh',
 				bottom:		'30vh',
-				delay:		50,
+				delay:		00,
 				initialize:	function() {
 					$(this).addClass('is-inactive');
 				},
